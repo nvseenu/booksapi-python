@@ -45,6 +45,7 @@ CREATE TABLE books (
 ```
 If you have postgres running on some other machine, you can configure it in the below file
 ```config.py```
+
 While updating config.py, please update config_qa.py as well. Config_qa.py file is used by
 integration and endtoend tests.
 
