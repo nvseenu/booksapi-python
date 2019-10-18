@@ -88,3 +88,7 @@ Flask app will be running now
 ```
 > pytest tests/endtoend -s
 ```
+
+
+Note: This app runs with Flask dev server which is not suitable for production.
+In order to use it in production, we should run this app with a server like Cherrypy, gunicorn
