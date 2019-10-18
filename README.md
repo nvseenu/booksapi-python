@@ -4,7 +4,6 @@
     - Finding external books using 3rd part api 'aniceandfireapi'
     - Creating, Updating , Deleting and Listing local books by using db
 
-
 Technologies used: Python 3, Flask, Pytest, Postgres    
 
 
@@ -18,13 +17,7 @@ Technologies used: Python 3, Flask, Pytest, Postgres
 ### Setup virtualenv 
 ```
 > cd booksapi-python
-```
-### Create virtual environment using python3
-```
 > virtualenv -p /usr/bin/python3 venv
-```
-- Activate virtual environment
-```
 > . venv/bin/activate
 ```
 
