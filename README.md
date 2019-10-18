@@ -6,6 +6,25 @@
 
 Technologies used: Python 3, Flask, Pytest, Postgres    
 
+## External Books API
+   This api provides below end point to get books
+
+| Description | Endpoint |
+| --- | --- |
+| Get books by name | `http://localhost:5000/api/external-books?name=A Game of Thrones` |
+
+
+## Books Api
+   This api provides below end points
+   
+| Description | Endpoint |
+| --- | --- |
+| Create book | `http://localhost:5000/api/v1/books` | 
+| Get book | `http://localhost:5000/api/v1/books/1` | 
+| Update book | `http://localhost:5000/api/v1/books/1` |   
+| Delete book | `http://localhost:5000/api/v1/books/1` |
+| Get books | `http://localhost:5000/api/v1/books?name=A Game of Thrones` |   
+
 
 ## Setup the project (Ubuntu):
 ### Clone the project
