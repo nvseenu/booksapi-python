@@ -1,4 +1,4 @@
-#Goal:
+# Goal:
 
     This project provides below features through REST end points.
     - Finding external books using 3rd part api 'aniceandfireapi'
@@ -8,7 +8,6 @@ Technologies used: Python 3, Flask, Pytest, Postgres
 
 
 ## Setup the project (Ubuntu):
---------------------------
 ### Clone the project
 ```
 > git clone https://github.com/nvseenu/booksapi-python.git
@@ -44,6 +43,10 @@ CREATE TABLE books (
 );
 
 ```
+If you have postgres running on some other machine, you can configure it in the below file
+```config.py```
+While updating config.py, please update config_qa.py as well. Config_qa.py file is used by
+integration and endtoend tests.
 
 ### Run Flask
 ```
